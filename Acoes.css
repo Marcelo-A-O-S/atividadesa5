@@ -1,0 +1,23 @@
+.Acoes
+{
+    width: 201px;
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    padding-top: 79px;
+    padding-left: 46px;
+}
+.alerta
+{
+    display: none;
+    width: 836px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: rgba(242, 29, 106, 1);
+    
+
+}
