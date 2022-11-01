@@ -4,3 +4,43 @@
     gap:10px;
     align-items: center;
 }
+.Acoes
+{
+    width: 201px;
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    padding-top: 79px;
+    padding-left: 46px;
+}
+.alerta
+{
+    display: none;
+    width: 836px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    color: rgba(242, 29, 106, 1);
+    
+
+}
+.button
+{
+    width: 201px;
+    height: 115px;
+    background: #FFFFFF;
+    border: 4px solid #DA3333;
+    color: rgba(242, 29, 106, 1);
+    border-radius: 23px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+}
+.button:hover
+{
+    box-shadow: 5px 5px 24px 5px rgba(247, 4, 4, 0.31);
+}
