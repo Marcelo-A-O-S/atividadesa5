@@ -37,8 +37,21 @@ function AdicionarPrato()
 function RetirarPrato()
 {
     var UltPrato = prato.length - 1
+    console.log("O prato"+ prato[UltPrato] +" retirado")
     prato.splice(UltPrato, 1)
     quantidade = quantidade - 1
-    console.log("Prato removido")
+
     MostrarPratos()
+}
+function LimparMesa()
+{
+    var Todos = prato.length -1
+    for (let index = Todos; index > -1; index--)
+    {
+        prato.splice(index, 1)
+    }
+    quantidade = quantidade - Todos
+    console.log("Todos os pratos foram removidos")
+    MostrarPratos()
+
 }
