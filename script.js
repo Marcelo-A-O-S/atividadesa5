@@ -8,6 +8,7 @@ function MostrarPratos()
     if(quantidade == 0)
     {
         alerta.style.display = "flex";
+        pilha.innerHTML = ""
     }
     if(quantidade != 0)
     {
