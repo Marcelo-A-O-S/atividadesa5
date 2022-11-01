@@ -11,7 +11,7 @@ body
 .Menu
 {
     display: flex;
-    gap:25px;
+    gap: 44px;
     align-items: center;
 }
 .Acoes
