@@ -19,7 +19,7 @@
     <header class="Menu">
         <div id="Acoes" class="Acoes">
             <button id="btnEmpilhar" onclick="AdicionarPrato()" class="button">Empilhar</button>
-            <button id="btnDesempilhar" class="button">Desempilhar</button>
+            <button id="btnDesempilhar" onclick="RetirarPrato()" class="button">Desempilhar</button>
             <button id="btnLimpar" class="button">Limpar Mesa</button>
         </div>
         <h1 id="alerta" class="alerta">Não foi adicionado nenhum prato a pilha de Pratos</h1>
@@ -29,7 +29,7 @@
         <div id="Pratos" class="Pratos">
 
         </div>
-        <mesa id="Mesa" class="Mesa">Mesa</mesa>
+        <mesa id="Mesa" class="Mesa"></mesa>
     </main>
     <script src="script.js"  ></script>
 </body>

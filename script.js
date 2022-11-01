@@ -19,7 +19,7 @@ function MostrarPratos()
 
             pilha.innerHTML += pratos          
         }
-        for (let index = 0; index < indice; index++) {
+        for (let index = 0; index < prato.length; index++) {
             console.log(prato[index])
             
         }
@@ -31,5 +31,13 @@ function AdicionarPrato()
     prato[quantidade] = "Prato"+ quantidade; 
     quantidade = quantidade + 1;
     console.log("Prato Adicionado!")
+    MostrarPratos()
+}
+function RetirarPrato()
+{
+    var UltPrato = prato.length - 1
+    prato.splice(UltPrato, 1)
+    quantidade = quantidade - 1
+    console.log("Prato removido")
     MostrarPratos()
 }
