@@ -10,6 +10,7 @@ function MostrarPratos()
         //Esse bloco de codigo é responsavel por avisar que a lista está vazia
         alerta.style.display = "flex";
         pilha.innerHTML = ""
+        console.log("A lista está vazia")
     }
     if(quantidade > 20)
     {
