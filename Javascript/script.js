@@ -11,7 +11,11 @@ function MostrarPratos()
         alerta.style.display = "flex";
         pilha.innerHTML = ""
     }
-    if(quantidade != 0)
+    if(quantidade > 20)
+    {
+        alert("A quantidade de pratos maxima ja foi adicionada na mesa")
+    }
+    if(quantidade != 0 && quantidade < 20)
     {
         var indice = quantidade - 1
         alerta.style.display = "none";
